@@ -1,0 +1,246 @@
+/**********************************/
+/* BELOW 1344px (Small desktops) */
+/**********************************/
+@media (max-width: 84em) {
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/**********************************/
+/* BELOW 1200px (Landscape tablets) */
+/**********************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .header .button a {
+    padding: .6rem 2rem;
+  }
+
+  .header .button a {
+    padding: .6rem 2rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-teriary {
+    font-size: 2.4rem;
+  }
+
+  .about-us img {
+    max-width: 80%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+}
+
+/**********************************/
+/* BELOW 960px (Tablets) */
+/**********************************/
+
+@media (max-width: 60em) {
+  html {
+    font-size: 50%;
+  }
+
+  .containers {
+    max-width: 100%;
+  }
+
+  .header .hamburger-btn {
+    display: flex;
+    margin-right: 5%;
+    background-color: black;
+  }
+
+  .heading-secondary {
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+  }
+
+  .header .button {
+    display: none;
+  }
+
+  .header .nav {
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: calc(100vh - 85px);
+    background-color: #ffffff;
+    border-top: 0px;
+    transition: all 1s ease-in;
+    display: none;
+    z-index: 999;
+  }
+
+  .header .nav ul {
+    margin-top: 4rem;
+    margin-left: 2rem;
+  }
+
+  .header .nav ul li {
+    display: block;
+    margin-left: 1rem;
+  }
+
+  .header .nav ul li a {
+    color: #555555;
+    padding: 1rem 0;
+    margin: 1rem;
+  }
+
+  /* .carousel-item {
+    height: 0vh;
+  } */
+
+  .container {
+    max-width: 110rem;
+    padding: 0 3rem;
+  }
+
+  .grid {
+    column-gap: 3.2rem;
+    row-gap: 4.8rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/**********************************/
+/* BELOW 688px (SmalerTablets) */
+/**********************************/
+
+@media (max-width: 43em) {
+  html {
+    font-size: 45.75%;
+  }
+
+  ul {
+    padding-left: 0rem;
+  }
+  #about-us {
+    margin-top: 4rem;
+    padding: 0rem 0rem;
+  }
+  .about-us .block-text {
+    text-align: center;
+  }
+
+  #about-us .about img {
+    margin-bottom: 5rem;
+  }
+
+  .about-us .section-title {
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+
+  .about-us img {
+    max-width: 100%;
+  }
+
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+}
+
+/**********************************/
+/* BELOW 528px (Mobile phones) */
+/**********************************/
+
+@media (max-width: 33em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .carousel-item {
+    height: calc(50vh - 85px);
+  }
+  .carousel-caption {
+    top: 45%;
+    width: 60%;
+  }
+
+  .carousel-caption .heading-2 {
+    font-size: 2.5rem;
+  }
+  .carousel-caption p{
+    font-size: 1.6rem;
+  }
+
+  .service-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 1rem 4rem 1rem;
+    gap: 4rem;
+  }
+  .gallery{
+    display: block;
+    margin-bottom: 4rem;
+  }
+  #blogs .container .section-header{
+    padding-top: 4rem;
+   
+  }
+  #blogs .container .section-header .section-title{
+    margin-bottom: 0rem;
+  }
+  .blogs {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .blogs .blog-item {
+    margin: 4rem 1rem;
+    position: relative;
+  }
+
+  .blogs .blog-item img {
+    width: 50em;
+  }
+
+  .testimonial {
+    padding-top: 4rem;
+  }
+  .footer-item .links{
+    flex-wrap: wrap;
+    flex-direction: row !important;
+  }
+  .footer-item a{
+    margin: .2rem 1rem;   
+  }
+
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+  .whatsapp_float {
+    width: 5rem;
+    height: 5rem;
+    bottom: 3rem;
+    right: 3rem;
+    font-size: 22px;
+  }
+  .gallery figure{
+    margin-bottom: 1rem;
+  }
+}
